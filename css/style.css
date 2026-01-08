@@ -4502,6 +4502,10 @@ body {
   }
 }
 
+.intro {
+  margin-bottom: 3.125rem;
+}
+
 .intro__text {
   text-align: left;
 }
@@ -4512,7 +4516,7 @@ body {
 }
 
 .intro__display {
-  max-width: 90%;
+  max-width: 83.582089%;
 }
 @media (min-width: 768px) {
   .intro__display {
@@ -4520,45 +4524,99 @@ body {
   }
 }
 
-.intro__silver-age {
-  width: 11.5rem;
+.intro__booster {
   position: absolute;
-  bottom: 0;
+  top: 12.5%;
+  left: -5%;
+  width: 41.4925378%;
+}
+@media (min-width: 768px) {
+  .intro__booster {
+    width: 47.71237059%;
+    left: -24%;
+  }
+}
+
+.intro__antiquity {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  width: 33.432835%;
+}
+@media (min-width: 768px) {
+  .intro__antiquity {
+    width: 38.562052%;
+    left: 0;
+  }
+}
+
+.intro__silver-age {
+  width: 36.078431%;
+  position: absolute;
+  bottom: -4%;
+  left: 6%;
+}
+@media (min-width: 768px) {
+  .intro__silver-age {
+    bottom: 0;
+    left: -14%;
+  }
 }
 
 .intro__display-container {
   position: relative;
   text-align: right;
+  margin-bottom: 3.13rem;
 }
 @media (min-width: 768px) {
   .intro__display-container {
     text-align: initial;
+    margin-bottom: 0;
   }
 }
 
 .intro__title-lead {
   font-family: "tillerdemi";
   font-size: 1.3125rem; /* 21px */
+  line-height: 1.4;
   margin: 0 0 0.25em;
+}
+@media (min-width: 768px) {
+  .intro__title-lead {
+    font-size: 1.3125rem; /* 21px */
+  }
+  .intro__title-lead br {
+    display: none;
+  }
 }
 
 .intro_header-1 {
   font-family: "tillerdemi";
   text-transform: uppercase;
   line-height: 1.4;
-  font-size: 33px;
+  font-size: 1.09375rem;
+}
+@media (min-width: 768px) {
+  .intro_header-1 {
+    font-size: 2.0625rem;
+  }
 }
 
 .intro_header-2 {
   font-family: "tillerheavy";
   text-transform: uppercase;
-  font-size: 2.25rem;
   line-height: 1.1;
-  font-size: 36px;
+  font-size: 1.875rem;
+}
+@media (min-width: 768px) {
+  .intro_header-2 {
+    font-size: 2.25rem;
+  }
 }
 
 .intro__text h2 {
   margin: 0 0 0.5em;
+  font-weight: normal;
 }
 
 @media (min-width: 768px) {
