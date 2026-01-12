@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // Background parallax effect
       const bg = document.querySelector(".hero-bg-container");
       gsap.to(bg, {
-        backgroundPositionY: "100%",
+        backgroundPositionY: "35%",
         ease: "none",
         scrollTrigger: {
           trigger: bg,
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const booster = document.querySelector(".intro__booster");
 
       gsap.to(booster, {
-        yPercent: 25,
+        yPercent: 15,
         duration: 0.5,
         ease: "none",
         scrollTrigger: {
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Antiquity - front layer (moves most)
       gsap.to(antiquity, {
-        yPercent: -10,
+        yPercent: -5,
         duration: 0.5,
         ease: "none",
         scrollTrigger: {
